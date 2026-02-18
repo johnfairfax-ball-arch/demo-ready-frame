@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
 import heroVisual from "@/assets/hero-visual.png";
 
-const SIGNUP_URL = "https://app.timebook.net/login/signup";
-const DEMO_URL = "http://early-access.timebook.ai/book_a_demo";
-
 const HeroSection = () => (
   <section className="relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-32">
     {/* Gradient glow behind hero */}
@@ -26,25 +23,7 @@ const HeroSection = () => (
           For product managers who are done being nomads, Timebook is the first platform built as their home — where customer conversations, insights, opportunities, goals, and decisions all live together.
         </p>
 
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href={DEMO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex rounded-xl bg-gradient-coral px-8 py-3.5 text-base font-semibold text-primary-foreground transition-opacity hover:opacity-90 glow-coral"
-          >
-            Book a Demo
-          </a>
-          <a
-            href={SIGNUP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex rounded-xl border border-border px-8 py-3.5 text-base font-medium text-foreground transition-colors hover:bg-muted"
-          >
-            Get Early Access
-          </a>
-        </div>
-      </motion.div>
+              </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
