@@ -43,10 +43,7 @@ const FeaturesSection = () => (
         transition={{ duration: 0.5 }}
         className="mx-auto max-w-3xl text-center mb-16"
       >
-        <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
-          End-to-End Platform
-        </p>
-        <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
           Uniting product teams{" "}
           <span className="text-gradient-coral">at every step.</span>
         </h2>
@@ -65,8 +62,7 @@ const FeaturesSection = () => (
             variants={item}
             className="rounded-2xl border border-border/50 bg-card/60 backdrop-blur p-8 transition-colors hover:border-primary/30"
           >
-            <div className="text-3xl mb-4">{f.icon}</div>
-            <h3 className="text-xl font-bold text-foreground mb-2">
+                        <h3 className="text-xl font-bold text-foreground mb-2">
               {f.title}
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">

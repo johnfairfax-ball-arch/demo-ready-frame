@@ -39,10 +39,7 @@ const ProblemSection = () => (
         transition={{ duration: 0.5 }}
         className="mx-auto max-w-3xl text-center mb-16"
       >
-        <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
-          20+ Customer Interviews
-        </p>
-        <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
           Different companies. Different roles.{" "}
           <span className="text-gradient-coral">Same story.</span>
         </h2>

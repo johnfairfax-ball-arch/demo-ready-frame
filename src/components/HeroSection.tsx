@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import heroVisual from "@/assets/hero-visual.png";
 
 const HeroSection = () => (
-  <section className="relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-32">
+  <section className="relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-32 bg-gradient-warm">
     {/* Gradient glow behind hero */}
     <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] rounded-full bg-vibrant-coral/5 blur-[120px]" />
 
@@ -14,13 +14,13 @@ const HeroSection = () => (
         className="mx-auto max-w-4xl text-center"
       >
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-7xl leading-[1.08]">
-          Product Managers:
+          Product Managers
           <br />
-          <span className="text-gradient-coral">welcome home.</span>
+          <span className="text-gradient-coral">Welcome Home</span>
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-          For product managers who are done being nomads, Timebook is the first platform built as their home — where customer conversations, insights, opportunities, goals, and decisions all live together.
+          For PMs tired of wandering between tools, Timebook is the home where all their work finally comes together.
         </p>
 
               </motion.div>
