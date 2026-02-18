@@ -9,16 +9,16 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navigationItems = [
-    { label: "Features", href: "#features" },
-    { label: "Solutions", href: "#solutions" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "About", href: "#about" },
+    { label: "Pricing", href: "https://www.timebook.ai/pricing" },
+    { label: "About", href: "https://www.timebook.ai/about" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/95 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <TimebookLogo />
+        <a href="https://timebook.net" className="flex items-center">
+          <TimebookLogo />
+        </a>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
@@ -27,6 +27,8 @@ const Navbar = () => {
               <a
                 key={item.label}
                 href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
                 {item.label}
@@ -71,6 +73,8 @@ const Navbar = () => {
                 <a
                   key={item.label}
                   href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >

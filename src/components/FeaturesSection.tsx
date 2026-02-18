@@ -2,22 +2,22 @@ import { motion } from "framer-motion";
 
 const features = [
   {
-    icon: "📡",
+    icon: "",
     title: "Capture Insights",
     description: "Turn user research into actionable ideas. Consolidate feedback from customers, internal teams, and market research in one searchable hub.",
   },
   {
-    icon: "🧭",
+    icon: "",
     title: "Discover What to Build",
     description: "Connect goals to opportunities and make evidence-based product decisions. Map customer needs directly to outcomes using Opportunity Solution Trees.",
   },
   {
-    icon: "📣",
+    icon: "",
     title: "Communicate Your Plan",
     description: "Share your product vision and roadmap. Show everyone what you're building and why. Connect business goals to user needs, experiments, and delivery.",
   },
   {
-    icon: "🚀",
+    icon: "",
     title: "Manage Delivery",
     description: "Transform requirements into executable tasks while maintaining strategic alignment. Manage timeframes, plan sprints and track tasks, features, and bugs.",
   },
